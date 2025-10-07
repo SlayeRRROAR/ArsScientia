@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:voidsteel_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_voidsteel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:voidsteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_voidsteel_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:voidsteel_nugget"
+    ]
+  }
+}

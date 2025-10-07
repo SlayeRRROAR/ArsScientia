@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "bronze_dust",
+  "ingredients": [
+    "arsscientia:copper_dust",
+    "arsscientia:copper_dust",
+    "arsscientia:copper_dust",
+    "arsscientia:tin_dust"
+  ],
+  "result": {
+    "count": 4,
+    "id": "arsscientia:bronze_dust"
+  }
+}

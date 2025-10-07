@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "platinum_ingot",
+  "ingredient": "arsscientia:platinum_dust",
+  "result": {
+    "id": "arsscientia:platinum_ingot"
+  }
+}

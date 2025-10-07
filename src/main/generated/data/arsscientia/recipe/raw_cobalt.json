@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "arsscientia:raw_cobalt_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "arsscientia:raw_cobalt"
+  }
+}

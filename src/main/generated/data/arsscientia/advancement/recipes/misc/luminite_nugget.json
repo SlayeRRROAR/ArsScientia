@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_luminite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:luminite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:luminite_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_luminite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:luminite_nugget"
+    ]
+  }
+}

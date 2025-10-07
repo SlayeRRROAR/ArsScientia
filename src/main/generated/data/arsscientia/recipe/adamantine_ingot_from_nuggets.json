@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "adamantine_nugget",
+  "key": {
+    "#": "arsscientia:adamantine_nugget"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arsscientia:adamantine_ingot"
+  }
+}

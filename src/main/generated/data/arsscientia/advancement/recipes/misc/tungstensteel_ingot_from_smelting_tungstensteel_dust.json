@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:tungstensteel_ingot_from_smelting_tungstensteel_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tungstensteel_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:tungstensteel_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tungstensteel_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:tungstensteel_ingot_from_smelting_tungstensteel_dust"
+    ]
+  }
+}

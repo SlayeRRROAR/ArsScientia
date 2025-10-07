@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "titanium_ingot",
+  "ingredients": [
+    "arsscientia:titanium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "arsscientia:titanium_ingot"
+  }
+}

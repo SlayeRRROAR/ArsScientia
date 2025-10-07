@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "raw_cobalt",
+  "key": {
+    "#": "arsscientia:raw_cobalt"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arsscientia:raw_cobalt_block"
+  }
+}

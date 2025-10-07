@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_cobalt_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:nether_cobalt_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:cobalt_ingot_from_smelting_nether_cobalt_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nether_cobalt_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:cobalt_ingot_from_smelting_nether_cobalt_ore"
+    ]
+  }
+}

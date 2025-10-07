@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "voidsteel_ingot",
+  "ingredient": "arsscientia:voidsteel_dust",
+  "result": {
+    "id": "arsscientia:voidsteel_ingot"
+  }
+}

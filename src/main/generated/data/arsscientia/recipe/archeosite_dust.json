@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "archeosite_dust",
+  "ingredients": [
+    "arsscientia:netherite_dust",
+    "arsscientia:netherite_dust",
+    "arsscientia:netherite_dust",
+    "arsscientia:diamond_dust",
+    "arsscientia:diamond_dust",
+    "arsscientia:platinum_dust"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arsscientia:archeosite_dust"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "group": "tungsten_ingot",
+  "ingredient": "arsscientia:tungsten_dust",
+  "result": {
+    "id": "arsscientia:tungsten_ingot"
+  }
+}

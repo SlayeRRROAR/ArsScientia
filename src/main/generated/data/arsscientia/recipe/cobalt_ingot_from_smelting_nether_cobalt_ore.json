@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 3.0,
+  "group": "cobalt_ingot",
+  "ingredient": "arsscientia:nether_cobalt_ore",
+  "result": {
+    "id": "arsscientia:cobalt_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tungstensteel_ingot",
+  "ingredients": [
+    "arsscientia:tungstensteel_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "arsscientia:tungstensteel_ingot"
+  }
+}

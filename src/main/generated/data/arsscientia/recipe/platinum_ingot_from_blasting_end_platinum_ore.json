@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3.0,
+  "group": "platinum_ingot",
+  "ingredient": "arsscientia:end_platinum_ore",
+  "result": {
+    "id": "arsscientia:platinum_ingot"
+  }
+}

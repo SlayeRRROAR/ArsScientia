@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 3.0,
+  "group": "tin_ingot",
+  "ingredient": "arsscientia:raw_tin",
+  "result": {
+    "id": "arsscientia:tin_ingot"
+  }
+}

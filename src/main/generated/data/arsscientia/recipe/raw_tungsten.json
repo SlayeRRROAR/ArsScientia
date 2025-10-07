@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "arsscientia:raw_tungsten_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "arsscientia:raw_tungsten"
+  }
+}

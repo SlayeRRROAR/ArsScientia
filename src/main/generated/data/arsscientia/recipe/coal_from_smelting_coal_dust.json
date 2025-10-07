@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "coal",
+  "ingredient": "arsscientia:coal_dust",
+  "result": {
+    "id": "minecraft:coal"
+  }
+}

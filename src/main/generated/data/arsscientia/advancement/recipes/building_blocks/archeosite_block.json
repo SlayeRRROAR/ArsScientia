@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_archeosite_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:archeosite_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:archeosite_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_archeosite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:archeosite_block"
+    ]
+  }
+}

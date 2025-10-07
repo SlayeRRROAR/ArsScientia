@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "luminite_dust",
+  "ingredients": [
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "arsscientia:silver_dust",
+    "arsscientia:silver_dust",
+    "arsscientia:silver_dust",
+    "arsscientia:tin_dust"
+  ],
+  "result": {
+    "count": 4,
+    "id": "arsscientia:luminite_dust"
+  }
+}

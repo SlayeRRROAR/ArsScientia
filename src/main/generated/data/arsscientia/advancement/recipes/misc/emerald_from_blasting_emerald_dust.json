@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emerald_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:emerald_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:emerald_from_blasting_emerald_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_emerald_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:emerald_from_blasting_emerald_dust"
+    ]
+  }
+}

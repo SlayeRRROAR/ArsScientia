@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "electrum_dust",
+  "ingredients": [
+    "arsscientia:gold_dust",
+    "arsscientia:silver_dust"
+  ],
+  "result": {
+    "count": 2,
+    "id": "arsscientia:electrum_dust"
+  }
+}

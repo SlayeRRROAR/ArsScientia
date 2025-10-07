@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "arsscientia:tungsten_ingot"
+  ],
+  "result": {
+    "count": 9,
+    "id": "arsscientia:tungsten_nugget"
+  }
+}

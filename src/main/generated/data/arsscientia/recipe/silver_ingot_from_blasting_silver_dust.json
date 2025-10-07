@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "group": "silver_ingot",
+  "ingredient": "arsscientia:silver_dust",
+  "result": {
+    "id": "arsscientia:silver_ingot"
+  }
+}

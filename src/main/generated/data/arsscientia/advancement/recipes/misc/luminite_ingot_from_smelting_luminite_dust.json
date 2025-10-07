@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_luminite_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:luminite_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:luminite_ingot_from_smelting_luminite_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_luminite_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:luminite_ingot_from_smelting_luminite_dust"
+    ]
+  }
+}

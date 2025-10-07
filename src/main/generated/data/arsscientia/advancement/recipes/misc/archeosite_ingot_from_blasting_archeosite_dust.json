@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_archeosite_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:archeosite_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:archeosite_ingot_from_blasting_archeosite_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_archeosite_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:archeosite_ingot_from_blasting_archeosite_dust"
+    ]
+  }
+}

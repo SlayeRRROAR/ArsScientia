@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "steel_dust",
+  "ingredients": [
+    "arsscientia:coal_dust",
+    "arsscientia:coal_dust",
+    "arsscientia:iron_dust"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arsscientia:steel_dust"
+  }
+}

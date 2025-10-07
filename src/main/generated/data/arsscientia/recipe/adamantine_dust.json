@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "adamantine_dust",
+  "ingredients": [
+    "arsscientia:electrum_dust",
+    "arsscientia:electrum_dust",
+    "arsscientia:electrum_dust",
+    "arsscientia:electrum_dust",
+    "arsscientia:emerald_dust",
+    "arsscientia:emerald_dust",
+    "minecraft:nether_star"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arsscientia:adamantine_dust"
+  }
+}

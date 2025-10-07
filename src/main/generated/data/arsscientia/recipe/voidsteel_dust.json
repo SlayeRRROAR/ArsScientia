@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "voidsteel_dust",
+  "ingredients": [
+    "arsscientia:tungstensteel_dust",
+    "arsscientia:tungstensteel_dust",
+    "arsscientia:tungstensteel_dust",
+    "arsscientia:ender_dust",
+    "arsscientia:ender_dust",
+    "arsscientia:cobalt_dust"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arsscientia:voidsteel_dust"
+  }
+}

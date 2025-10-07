@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ender_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arsscientia:ender_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arsscientia:ender_pearl_from_blasting_ender_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ender_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arsscientia:ender_pearl_from_blasting_ender_dust"
+    ]
+  }
+}
