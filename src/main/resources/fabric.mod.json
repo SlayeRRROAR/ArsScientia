@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "arscientia",
+	"id": "arsscientia",
 	"version": "${version}",
-	"name": "ArScientia",
+	"name": "ArsScientia",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"SlayeR12K"
@@ -12,23 +12,23 @@
 		"sources": "-"
 	},
 	"license": "MIT",
-	"icon": "assets/arscientia/icon.png",
+	"icon": "assets/arsscientia/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.slayer.arscientia.ArScientia"
+          "net.slayer.arsscientia.ArsScientia"
 		],
 		"client": [
-			"net.slayer.arscientia.ArScientiaClient"
+			"net.slayer.arsscientia.ArsScientiaClient"
 		],
 		"fabric-datagen": [
-			"net.slayer.arscientia.ArScientiaDataGenerator"
+			"net.slayer.arsscientia.ArsScientiaDataGenerator"
 		]
 	},
 	"mixins": [
-		"arscientia.mixins.json",
+		"arsscientia.mixins.json",
 		{
-			"config": "arscientia.client.mixins.json",
+			"config": "arsscientia.client.mixins.json",
 			"environment": "client"
 		}
 	],

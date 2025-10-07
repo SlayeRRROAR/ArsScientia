@@ -1,8 +1,8 @@
-package net.slayer.arscientia;
+package net.slayer.arsscientia;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class ArScientiaClient implements ClientModInitializer {
+public class ArsScientiaClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
