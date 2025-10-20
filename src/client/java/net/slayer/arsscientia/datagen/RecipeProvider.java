@@ -148,8 +148,8 @@ public class RecipeProvider extends FabricRecipeProvider {
                 offerReversibleCompactingRecipesWithReverseRecipeGroup(RecipeCategory.MISC, ASItems.STEEL_INGOT, RecipeCategory.BUILDING_BLOCKS, ASBlocks.STEEL_BLOCK, "steel_ingot_from_block", "steel_ingot");
                 offerReversibleCompactingRecipesWithCompactingRecipeGroup(RecipeCategory.MISC, ASItems.STEEL_NUGGET, RecipeCategory.MISC, ASItems.STEEL_INGOT, "steel_ingot_from_nuggets", "steel_nugget");
                 createShapeless(RecipeCategory.MISC, ASItems.STEEL_DUST, 1)
-                        .input(ASItems.COAL_DUST, 2)
                         .input(ASItems.IRON_DUST, 1)
+                        .input(ASItems.COAL_DUST, 2)
                         .group("steel_dust")
                         .criterion(hasItem(ASItems.IRON_DUST), conditionsFromItem(ASItems.IRON_DUST))
                         .offerTo(exporter);
@@ -172,6 +172,13 @@ public class RecipeProvider extends FabricRecipeProvider {
                 offerBlasting(TUNGSTENSTEEL_SMELTABLES, RecipeCategory.MISC, ASItems.TUNGSTENSTEEL_INGOT, 0.0F, 100, "tungstensteel_ingot");
                 offerReversibleCompactingRecipesWithReverseRecipeGroup(RecipeCategory.MISC, ASItems.TUNGSTENSTEEL_INGOT, RecipeCategory.BUILDING_BLOCKS, ASBlocks.TUNGSTENSTEEL_BLOCK, "tungstensteel_ingot_from_block", "tungstensteel_ingot");
                 offerReversibleCompactingRecipesWithCompactingRecipeGroup(RecipeCategory.MISC, ASItems.TUNGSTENSTEEL_NUGGET, RecipeCategory.MISC, ASItems.TUNGSTENSTEEL_INGOT, "tungstensteel_ingot_from_nuggets", "tungstensteel_nugget");
+                createShapeless(RecipeCategory.MISC, ASItems.TUNGSTENSTEEL_DUST, 1)
+                        .input(ASItems.STEEL_DUST, 3)
+                        .input(ASItems.TUNGSTEN_DUST, 1)
+                        .input(Items.REDSTONE, 4)
+                        .group("tungstensteel_dust")
+                        .criterion(hasItem(ASItems.TUNGSTEN_DUST), conditionsFromItem(ASItems.TUNGSTEN_DUST))
+                        .offerTo(exporter);
 
 
                 List<ItemConvertible> LUMINITE_SMELTABLES = List.of(ASItems.LUMINITE_DUST);
@@ -180,9 +187,9 @@ public class RecipeProvider extends FabricRecipeProvider {
                 offerReversibleCompactingRecipesWithReverseRecipeGroup(RecipeCategory.MISC, ASItems.LUMINITE_INGOT, RecipeCategory.BUILDING_BLOCKS, ASBlocks.LUMINITE_BLOCK, "luminite_ingot_from_block", "luminite_ingot");
                 offerReversibleCompactingRecipesWithCompactingRecipeGroup(RecipeCategory.MISC, ASItems.LUMINITE_NUGGET, RecipeCategory.MISC, ASItems.LUMINITE_INGOT, "luminite_ingot_from_nuggets", "luminite_nugget");
                 createShapeless(RecipeCategory.MISC, ASItems.LUMINITE_DUST, 4)
-                        .input(Items.GLOWSTONE_DUST, 4)
                         .input(ASItems.SILVER_DUST, 3)
                         .input(ASItems.TIN_DUST, 1)
+                        .input(Items.GLOWSTONE_DUST, 4)
                         .group("luminite_dust")
                         .criterion(hasItem(Items.GLOWSTONE_DUST), conditionsFromItem(Items.GLOWSTONE_DUST))
                         .offerTo(exporter);

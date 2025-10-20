@@ -3,9 +3,9 @@
   "category": "misc",
   "group": "steel_dust",
   "ingredients": [
+    "arsscientia:iron_dust",
     "arsscientia:coal_dust",
-    "arsscientia:coal_dust",
-    "arsscientia:iron_dust"
+    "arsscientia:coal_dust"
   ],
   "result": {
     "count": 1,

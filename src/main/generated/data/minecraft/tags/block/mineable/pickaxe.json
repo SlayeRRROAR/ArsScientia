@@ -1,3 +1,33 @@
 {
-  "values": []
+  "values": [
+    "arsscientia:tin_ore",
+    "arsscientia:deepslate_tin_ore",
+    "arsscientia:tin_block",
+    "arsscientia:raw_tin_block",
+    "arsscientia:silver_ore",
+    "arsscientia:deepslate_silver_ore",
+    "arsscientia:silver_block",
+    "arsscientia:raw_silver_block",
+    "arsscientia:titanium_ore",
+    "arsscientia:deepslate_titanium_ore",
+    "arsscientia:titanium_block",
+    "arsscientia:raw_titanium_block",
+    "arsscientia:nether_tungsten_ore",
+    "arsscientia:tungsten_block",
+    "arsscientia:raw_tungsten_block",
+    "arsscientia:nether_cobalt_ore",
+    "arsscientia:cobalt_block",
+    "arsscientia:raw_cobalt_block",
+    "arsscientia:end_platinum_ore",
+    "arsscientia:platinum_block",
+    "arsscientia:raw_platinum_block",
+    "arsscientia:bronze_block",
+    "arsscientia:electrum_block",
+    "arsscientia:steel_block",
+    "arsscientia:luminite_block",
+    "arsscientia:tungstensteel_block",
+    "arsscientia:archeosite_block",
+    "arsscientia:voidsteel_block",
+    "arsscientia:adamantine_block"
+  ]
 }

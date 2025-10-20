@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "arsscientia:titanium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "arsscientia:titanium"
+      }
+    ]
+  }
+}

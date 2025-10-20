@@ -6,7 +6,9 @@ import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
 import net.slayer.arsscientia.blocks.ASBlocks;
+import net.slayer.arsscientia.items.ASArmorItems;
 import net.slayer.arsscientia.items.ASItems;
+import net.slayer.arsscientia.items.armors.ASArmorMaterials;
 
 public class ModelProvider extends FabricModelProvider {
     public ModelProvider(FabricDataOutput output) {
@@ -118,7 +120,58 @@ public class ModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ASItems.VOIDSTEEL_DUST, Models.GENERATED);
         itemModelGenerator.register(ASItems.ADAMANTINE_DUST, Models.GENERATED);
 
-        //itemModelGenerator.register(ASTools.SWORD, Models.HANDHELD);
+        /*
+        itemModelGenerator.registerArmor(ASArmorItems.XXX_HELMET, ASArmorMaterials.XXX_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.XXX_CHESTPLATE, ASArmorMaterials.XXX_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.XXX_LEGGINGS, ASArmorMaterials.XXX_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.XXX_BOOTS, ASArmorMaterials.XXX_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+        */
+
+        itemModelGenerator.registerArmor(ASArmorItems.SILVER_HELMET, ASArmorMaterials.SILVER_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.SILVER_CHESTPLATE, ASArmorMaterials.SILVER_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.SILVER_LEGGINGS, ASArmorMaterials.SILVER_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.SILVER_BOOTS, ASArmorMaterials.SILVER_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.TITANIUM_HELMET, ASArmorMaterials.TITANIUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.TITANIUM_CHESTPLATE, ASArmorMaterials.TITANIUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.TITANIUM_LEGGINGS, ASArmorMaterials.TITANIUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.TITANIUM_BOOTS, ASArmorMaterials.TITANIUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.PLATINUM_HELMET, ASArmorMaterials.PLATINUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.PLATINUM_CHESTPLATE, ASArmorMaterials.PLATINUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.PLATINUM_LEGGINGS, ASArmorMaterials.PLATINUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.PLATINUM_BOOTS, ASArmorMaterials.PLATINUM_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.BRONZE_HELMET, ASArmorMaterials.BRONZE_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.BRONZE_CHESTPLATE, ASArmorMaterials.BRONZE_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.BRONZE_LEGGINGS, ASArmorMaterials.BRONZE_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.BRONZE_BOOTS, ASArmorMaterials.BRONZE_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.STEEL_HELMET, ASArmorMaterials.STEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.STEEL_CHESTPLATE, ASArmorMaterials.STEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.STEEL_LEGGINGS, ASArmorMaterials.STEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.STEEL_BOOTS, ASArmorMaterials.STEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.TUNGSTENSTEEL_HELMET, ASArmorMaterials.TUNGSTENSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.TUNGSTENSTEEL_CHESTPLATE, ASArmorMaterials.TUNGSTENSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.TUNGSTENSTEEL_LEGGINGS, ASArmorMaterials.TUNGSTENSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.TUNGSTENSTEEL_BOOTS, ASArmorMaterials.TUNGSTENSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.ARCHEOSITE_HELMET, ASArmorMaterials.ARCHEOSITE_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.ARCHEOSITE_CHESTPLATE, ASArmorMaterials.ARCHEOSITE_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.ARCHEOSITE_LEGGINGS, ASArmorMaterials.ARCHEOSITE_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.ARCHEOSITE_BOOTS, ASArmorMaterials.ARCHEOSITE_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.VOIDSTEEL_HELMET, ASArmorMaterials.VOIDSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.VOIDSTEEL_CHESTPLATE, ASArmorMaterials.VOIDSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.VOIDSTEEL_LEGGINGS, ASArmorMaterials.VOIDSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.VOIDSTEEL_BOOTS, ASArmorMaterials.VOIDSTEEL_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.registerArmor(ASArmorItems.ADAMANTINE_HELMET, ASArmorMaterials.ADAMANTINE_ARMOR_MATERIAL_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.ADAMANTINE_CHESTPLATE, ASArmorMaterials.ADAMANTINE_ARMOR_MATERIAL_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.ADAMANTINE_LEGGINGS, ASArmorMaterials.ADAMANTINE_ARMOR_MATERIAL_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ASArmorItems.ADAMANTINE_BOOTS, ASArmorMaterials.ADAMANTINE_ARMOR_MATERIAL_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
 
     }
 

@@ -1,3 +1,15 @@
 {
-  "values": []
+  "values": [
+    "arsscientia:silver_ore",
+    "arsscientia:deepslate_silver_ore",
+    "arsscientia:silver_block",
+    "arsscientia:raw_silver_block",
+    "arsscientia:titanium_ore",
+    "arsscientia:deepslate_titanium_ore",
+    "arsscientia:titanium_block",
+    "arsscientia:raw_titanium_block",
+    "arsscientia:electrum_block",
+    "arsscientia:steel_block",
+    "arsscientia:luminite_block"
+  ]
 }

@@ -3,14 +3,14 @@
   "category": "misc",
   "group": "luminite_dust",
   "ingredients": [
-    "minecraft:glowstone_dust",
-    "minecraft:glowstone_dust",
-    "minecraft:glowstone_dust",
-    "minecraft:glowstone_dust",
     "arsscientia:silver_dust",
     "arsscientia:silver_dust",
     "arsscientia:silver_dust",
-    "arsscientia:tin_dust"
+    "arsscientia:tin_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust"
   ],
   "result": {
     "count": 4,

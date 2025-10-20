@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tungstensteel_dust",
+  "ingredients": [
+    "arsscientia:steel_dust",
+    "arsscientia:steel_dust",
+    "arsscientia:steel_dust",
+    "arsscientia:tungsten_dust",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arsscientia:tungstensteel_dust"
+  }
+}

@@ -74,7 +74,7 @@ public class ASBlocks {
                     .strength(10.0F, 18.0F).requiresTool().sounds(BlockSoundGroup.METAL),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
     public static final Block COBALT_BLOCK = registerBlock("cobalt_block", Block::new, AbstractBlock.Settings.create()
-                    .strength(16.0F, 32.0F).requiresTool().sounds(BlockSoundGroup.METAL),
+                    .strength(8.0F, 16.0F).requiresTool().sounds(BlockSoundGroup.METAL),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block", Block::new, AbstractBlock.Settings.create()
                     .strength(16.0F, 32.0F).requiresTool().sounds(BlockSoundGroup.METAL),
@@ -86,7 +86,7 @@ public class ASBlocks {
                     .strength(5.0F, 10.0F).requiresTool().sounds(BlockSoundGroup.METAL),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
     public static final Block STEEL_BLOCK = registerBlock("steel_block", Block::new, AbstractBlock.Settings.create()
-                    .strength(5.0F, 12.0F).requiresTool().sounds(BlockSoundGroup.METAL),
+                    .strength(8.0F, 18.0F).requiresTool().sounds(BlockSoundGroup.METAL),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
     public static final Block LUMINITE_BLOCK = registerBlock("luminite_block", Block::new, AbstractBlock.Settings.create()
                     .strength(5.0F, 6.0F).luminance(state -> 15).requiresTool().sounds(BlockSoundGroup.METAL),
@@ -101,7 +101,7 @@ public class ASBlocks {
                     .strength(50.0F, 1200.0F).requiresTool().sounds(BlockSoundGroup.NETHERITE),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
     public static final Block ADAMANTINE_BLOCK = registerBlock("adamantine_block", Block::new, AbstractBlock.Settings.create()
-                    .strength(50.0F, 1200.0F).requiresTool().sounds(BlockSoundGroup.NETHERITE).luminance((state) -> 7),
+                    .strength(50.0F, 1200.0F).luminance((state) -> 7).requiresTool().sounds(BlockSoundGroup.NETHERITE),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
 
     public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block", Block::new, AbstractBlock.Settings.create()
@@ -117,7 +117,7 @@ public class ASBlocks {
                     .strength(10.0F, 18.0F).requiresTool().sounds(BlockSoundGroup.METAL),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
     public static final Block RAW_COBALT_BLOCK = registerBlock("raw_cobalt_block", Block::new, AbstractBlock.Settings.create()
-                    .strength(9.0F, 14.0F).requiresTool().sounds(BlockSoundGroup.METAL),
+                    .strength(8.0F, 16.0F).requiresTool().sounds(BlockSoundGroup.METAL),
             true, true, ItemGroupUtil.ARSSCIENTIA_BLOCKS);
     public static final Block RAW_PLATINUM_BLOCK = registerBlock("raw_platinum_block", Block::new, AbstractBlock.Settings.create()
                     .strength(16.0F, 32.0F).requiresTool().sounds(BlockSoundGroup.METAL),

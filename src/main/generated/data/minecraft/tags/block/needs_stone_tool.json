@@ -1,3 +1,9 @@
 {
-  "values": []
+  "values": [
+    "arsscientia:tin_ore",
+    "arsscientia:deepslate_tin_ore",
+    "arsscientia:tin_block",
+    "arsscientia:raw_tin_block",
+    "arsscientia:bronze_block"
+  ]
 }
