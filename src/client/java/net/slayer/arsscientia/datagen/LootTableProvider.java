@@ -15,6 +15,7 @@ import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.slayer.arsscientia.blocks.ASBlocks;
+import net.slayer.arsscientia.blocks.ASDecoBlocks;
 import net.slayer.arsscientia.items.ASItems;
 
 import java.util.concurrent.CompletableFuture;
@@ -61,6 +62,8 @@ public class LootTableProvider extends FabricBlockLootTableProvider {
 
         //addDrop(ASBlocks.MULTI_ORE, multipleOreDrops(ASBlocks.MULTI_ORE, ASItems.MULTI_RAW, 1, 3));
         //addDrop(ASBlocks.SINGLE_ORE, oreDrops(ASBlocks.SINGLE_ORE, ASItems.SINGLE_RAW));
+
+        addDrop(ASDecoBlocks.LUMINITE_LAMP);
 
     }
 

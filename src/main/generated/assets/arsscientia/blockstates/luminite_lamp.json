@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "arsscientia:block/luminite_lamp"
+    },
+    "lit=true": {
+      "model": "arsscientia:block/luminite_lamp_on"
+    }
+  }
+}

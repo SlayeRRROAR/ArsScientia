@@ -330,6 +330,9 @@ public class TranslationProvider_EN_US extends FabricLanguageProvider {
         translationBuilder.add("item.arsscientia.adamantine_paxel", "Adamantine Paxel");
 
 
+        translationBuilder.add("block.arsscientia.luminite_lamp", "Luminite Lamp");
+
+
 
         //TOOLTIPS
 

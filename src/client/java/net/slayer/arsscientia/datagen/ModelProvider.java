@@ -2,10 +2,14 @@ package net.slayer.arsscientia.datagen;
 
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.client.data.BlockStateModelGenerator;
-import net.minecraft.client.data.ItemModelGenerator;
-import net.minecraft.client.data.Models;
+import net.minecraft.client.data.*;
+import net.minecraft.client.render.model.json.ModelVariant;
+import net.minecraft.client.render.model.json.WeightedVariant;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.collection.Pool;
 import net.slayer.arsscientia.blocks.ASBlocks;
+import net.slayer.arsscientia.blocks.ASDecoBlocks;
+import net.slayer.arsscientia.blocks.custom.LuminiteLampBlock;
 import net.slayer.arsscientia.items.ASArmorItems;
 import net.slayer.arsscientia.items.ASItems;
 import net.slayer.arsscientia.items.armors.ASArmorMaterials;
@@ -49,6 +53,13 @@ public class ModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ASBlocks.RAW_TUNGSTEN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ASBlocks.RAW_COBALT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ASBlocks.RAW_PLATINUM_BLOCK);
+
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ASDecoBlocks.LUMINITE_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ASDecoBlocks.LUMINITE_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockModelDefinitionCreator.of(ASDecoBlocks.LUMINITE_LAMP)
+                .with(BlockStateModelGenerator.createBooleanModelMap(LuminiteLampBlock.LIT,
+                        new WeightedVariant(Pool.<ModelVariant>builder().add(new ModelVariant(lampOnIdentifier)).build()),
+                        new WeightedVariant(Pool.<ModelVariant>builder().add(new ModelVariant(lampOffIdentifier)).build()))));
 
     }
 

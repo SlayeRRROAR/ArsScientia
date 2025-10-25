@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.slayer.arsscientia.blocks.ASBlocks;
+import net.slayer.arsscientia.blocks.ASDecoBlocks;
 import net.slayer.arsscientia.util.ASTagUtil;
 
 import java.util.concurrent.CompletableFuture;
@@ -46,7 +47,9 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ASBlocks.TUNGSTENSTEEL_BLOCK)
                 .add(ASBlocks.ARCHEOSITE_BLOCK)
                 .add(ASBlocks.VOIDSTEEL_BLOCK)
-                .add(ASBlocks.ADAMANTINE_BLOCK);
+                .add(ASBlocks.ADAMANTINE_BLOCK)
+
+                .add(ASDecoBlocks.LUMINITE_LAMP);
 
         valueLookupBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ASBlocks.TIN_ORE)

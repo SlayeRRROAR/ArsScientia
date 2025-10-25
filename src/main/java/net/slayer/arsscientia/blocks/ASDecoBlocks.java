@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.FilledMapItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
@@ -13,6 +14,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.slayer.arsscientia.ArsScientia;
+import net.slayer.arsscientia.blocks.custom.LuminiteLampBlock;
 import net.slayer.arsscientia.util.ItemGroupUtil;
 
 import java.util.function.Function;
@@ -20,16 +22,32 @@ import java.util.function.Function;
 @SuppressWarnings({"unused", "SameParameterValue"})
 public class ASDecoBlocks {
 
+    public static final Block LUMINITE_LAMP = registerBlock("luminite_lamp", LuminiteLampBlock::new, AbstractBlock.Settings.create()
+                    .strength(3.0F, 6.0F)
+                    .luminance(state -> state.get(LuminiteLampBlock.LIT) ? 0 : 15)
+                    .sounds(BlockSoundGroup.GLASS),
+            true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
+
     public static final Block WORN_STRONGBOX = registerBlock("worn_strongbox", Block::new, AbstractBlock.Settings.create()
-            .strength(2.5F, 2.5F).sounds(BlockSoundGroup.WOOD), true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
+                    .strength(2.5F, 2.5F)
+                    .sounds(BlockSoundGroup.WOOD),
+            true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
     public static final Block STRONGBOX = registerBlock("strongbox", Block::new, AbstractBlock.Settings.create()
-            .strength(2.5F, 2.5F).sounds(BlockSoundGroup.WOOD),true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
+                    .strength(2.5F, 2.5F)
+                    .sounds(BlockSoundGroup.WOOD),
+            true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
     public static final Block PRISTINE_STRONGBOX = registerBlock("pristine_strongbox", Block::new, AbstractBlock.Settings.create()
-            .strength(2.5F, 2.5F).sounds(BlockSoundGroup.WOOD),true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
+                    .strength(2.5F, 2.5F)
+                    .sounds(BlockSoundGroup.WOOD),
+            true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
     public static final Block LEGENDARY_STRONGBOX = registerBlock("legendary_strongbox", Block::new, AbstractBlock.Settings.create()
-            .strength(2.5F, 2.5F).sounds(BlockSoundGroup.WOOD),true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
+                    .strength(2.5F, 2.5F)
+                    .sounds(BlockSoundGroup.WOOD),
+            true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
     public static final Block MYTHICAL_STRONGBOX = registerBlock("mythical_strongbox", Block::new, AbstractBlock.Settings.create()
-            .strength(2.5F, 2.5F).sounds(BlockSoundGroup.WOOD),true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
+                    .strength(2.5F, 2.5F)
+                    .sounds(BlockSoundGroup.WOOD),
+            true, true, ItemGroupUtil.ARSSCIENTIA_DECORATIONS);
 
 
 
